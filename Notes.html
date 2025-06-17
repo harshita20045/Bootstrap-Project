@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes - StudySpace</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Main.css" />
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">StudySpace</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Profile</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Profile.html">Your Profile</a></li>
+              <li><a class="dropdown-item" href="login.html">Log In</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Welcome.html">Log Out</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search topics">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container text-center mt-4">
+  <h2>Download Subject Notes</h2>
+  <p class="text-muted">Click to view or download notes for different topics.</p>
+</div>
+
+
+<div class="container mt-4">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">HTML Notes</h5>
+          <p class="card-text">Well-structured notes on HTML basics, tags, forms, and more.</p>
+          <a href="notes/html-notes.pdf" class="btn btn-primary" target="_blank">View / Download</a>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">CSS Notes</h5>
+          <p class="card-text">Covers styling, layouts, animations, and advanced CSS tricks.</p>
+          <a href="notes/css-notes.pdf" class="btn btn-success" target="_blank">View / Download</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">DBMS Notes</h5>
+          <p class="card-text">Includes ER diagrams, normalization, SQL queries, and more.</p>
+          <a href="notes/dbms-notes.pdf" class="btn btn-warning" target="_blank">View / Download</a>
+        </div>
+      </div>
+    </div>
+
+   
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Java Notes</h5>
+          <p class="card-text">Object-Oriented concepts, syntax, collections, and exceptions.</p>
+          <a href="notes/java-notes.pdf" class="btn btn-danger" target="_blank">View / Download</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">MERN Stack Notes</h5>
+          <p class="card-text">Covers MongoDB, Express.js, React, and Node.js step-by-step.</p>
+          <a href="notes/mern-notes.pdf" class="btn btn-info" target="_blank">View / Download</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-5">
+  &copy; 2025 StudySpace | All Rights Reserved
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

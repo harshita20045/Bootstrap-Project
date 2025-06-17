@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudySpace - Main Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="Main.css" />
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">StudySpace</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Profile</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Profile.html">Your Profile</a></li>
+              <li><a class="dropdown-item" href="login.html">Log In</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Welcome.html">Log Out</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search topics">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="position-relative text-white text-center bg-dark" style="height: 80vh; overflow: hidden;">
+    <video autoplay muted loop class="position-absolute w-100 h-100" style="object-fit: cover;">
+      <source src="./video/215500_tiny.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="position-relative z-1 d-flex flex-column justify-content-center align-items-center h-100 bg-dark bg-opacity-50">
+      <h1 class="display-4 fw-bold">Welcome to StudySpace</h1>
+      <p class="lead">Learn, Grow, and Succeed Together</p>
+      <a href="login.html" class="btn btn-light mt-3">Get Started</a>
+    </div>
+  </div>
+
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Our Services</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm text-center p-3 border-0">
+        <i class="bi bi-youtube display-4 text-danger mb-3"></i>
+        <h4>
+          <a href="Youtube.html" target="_blank" class="text-decoration-none text-dark">YouTube Tutorials</a>
+        </h4>
+        <p class="text-muted">Explore handpicked videos to understand concepts better.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm text-center p-3 border-0">
+        <i class="bi bi-journal-text display-4 text-primary mb-3"></i>
+        <h4>
+          <a href="Notes.html" class="text-decoration-none text-dark">Notes</a>
+        </h4>
+        <p class="text-muted">Get clean, structured notes for easy revision and learning.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm text-center p-3 border-0">
+        <i class="bi bi-globe display-4 text-success mb-3"></i>
+        <h4>
+          <a href="Websites.html" class="text-decoration-none text-dark">Useful Websites</a>
+        </h4>
+        <p class="text-muted">Find the best websites for coding, learning, and exploring.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    &copy; 2025 StudySpace | All Rights Reserved
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
